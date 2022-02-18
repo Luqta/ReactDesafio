@@ -3,6 +3,8 @@ import Discord from '../assets/Discord.svg'
 import Facebook from '../assets/Facebook.svg'
 import Linkedin from '../assets/Linkedin.svg'
 import Logo from '../assets/Logo.svg'
+import Blobs from '../assets/Blobs.svg'
+import Programador from '../assets/Programador.svg'
 
 /**
  * 
@@ -36,6 +38,20 @@ export default function SVGIcon(props){
 		return (
 			<div>
 				<img src={Logo} alt="Logo"></img>
+			</div>
+		);
+
+		case "Blobs":
+		return (
+			<div>
+				<img src={Blobs} alt="Blobs baixo"></img>
+			</div>
+		);
+
+		case "Programador":
+		return (
+			<div>
+				<img src={Programador} alt="Programador"></img>
 			</div>
 		);
 

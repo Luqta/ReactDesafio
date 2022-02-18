@@ -7,15 +7,14 @@ import style from './Header.module.scss';
  */
 export default function Header (){
     return(
-        <nav className={style.NavBar}>
-            <section className='HeaderIcons'>
-                <SVGIcon name="Discord"/> 
-                <SVGIcon name="Facebook"/> 
-                <SVGIcon name="Linkedin"/>
+        <nav className={style.navBar}>
+            <section className={style.headerIcons}>
+                <SVGIcon classname={style.svgIcon} name="Discord"/> 
+                <SVGIcon classname={style.svgIcon} name="Facebook"/> 
+                <SVGIcon classname={style.svgIcon} name="Linkedin"/>
             </section>
-            <section className='HeaderLogo'>
-                <SVGIcon name="Logo"/> 
-                <h1>Ballerini Devs</h1>
+            <section className={style.headerLogo}>
+                <SVGIcon classname={style.svgIcon} name="Logo"/> 
             </section>
         </nav>
     )
