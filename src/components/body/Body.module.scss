@@ -1,8 +1,8 @@
 .body{
     background-image: url(../../assets/Blobs.svg);
     background-repeat:no-repeat;
-    background-size: 27%;
-    height: 100%;
+    background-size:contain;
+    height: 100vh;
     display: flex;
     flex-direction: row;
 
@@ -17,24 +17,29 @@
 
         h1{
             color: #D2D2D2;
-            font-size: 48px;
+            font-size: 3vw;
             font-style: bold;
         }
 
         p{
             color: #A9A9A9;
-            font-size: 24px;
+            font-size: 1.5vw;
         }
 
         button{
             background-color: #27AE60;
             color: white;
             border-radius: 25px;
+            font-size: 1.25vw;
             border: none;
             width: 35%;
             height: 15%;
 
             margin-top: 15px;
+            
+            &:hover{
+                cursor:pointer;
+            }
         }
     }
 
