@@ -1,13 +1,12 @@
-import Header from "../../components/header/index.tsx";
-import Body from "../../components/body/index.tsx";
+import Header from '../../components/header/index.tsx';
+import CardGrid from '../../components/cardGrid/index.tsx';
 import style from './gridPage.module.scss'
 
-function GridPage() {
+export default function GridPage() {
     return (
-		<div className={style.app}>
-			<h1>grid</h1>
+		<div className={style.gridPage}>
+			<Header/>
+			<CardGrid/>
 		</div>
     );
 }
-
-export default GridPage;

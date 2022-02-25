@@ -1,0 +1,73 @@
+@import '../../App.module.scss';
+
+.homePage{
+    background-color: $bg-color;
+    height: 100vh;
+    overflow: hidden; background-image: url(../../assets/Blobs.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+
+    font-family: $overpass;
+    font-weight: 400;
+
+    height: 100vh;
+    .body{
+        display: flex;
+        flex-direction: row;
+
+        section{
+            width: 40%;
+            height: 50%;
+            padding-left: 7.5%;
+            padding-top: 5%;
+    
+            min-width: 40%;
+            max-width: 60%;
+    
+            h1{
+                color: $grey-color;
+                font-size: 3vw;
+                font-style: bold;
+            }
+    
+            p{
+                color: $white-color;
+                font-size: 1.5vw;
+            }
+    
+            button{
+                background-color: $green-color;
+                color: white;
+                font-weight: 400;
+                font-family: $overpass;
+                border-radius: 25px;
+                font-size: 1.25vw;
+                border: none;
+                width: 35%;
+                min-height: 6vh;
+                max-height: 8vh;
+    
+                margin-top: 15px;
+                
+                &:hover{
+                    cursor:pointer;
+                }
+            }
+        }
+    
+        .programadorDiv{
+            width: 60%;
+            min-width: 55%;
+            max-width: 65%;
+            img{
+                width: 60%;
+                height: 60%;
+    
+                min-width: 55%;
+                max-width: 65%;
+                min-height: 55%;
+                max-height: 65%;
+            }   
+        }
+    }
+}

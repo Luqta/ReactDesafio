@@ -1,5 +1,20 @@
+//import font-families
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+//colors 
+$bg-color: #1D1D1D;
+$card-bg-color: #F9F9F922;
+$green-color: #27AE60;
+$grey-color: #D2D2D2;
+$white-color: #A9A9A9;
+$white-font-color: #F9F9F9;
+
+//fonts
+$maven-pro: 'Maven Pro', sans-serif;   
+$overpass: 'Overpass', sans-serif;
+
 .app{
-    background-color: #1D1D1D;
+    background-color: $bg-color;
     height: 100vh;
     overflow: hidden;
 }

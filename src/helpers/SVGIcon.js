@@ -5,6 +5,8 @@ import Linkedin from '../assets/Linkedin.svg'
 import Logo from '../assets/Logo.svg'
 import Blobs from '../assets/Blobs.svg'
 import Programador from '../assets/Programador.svg'
+import GithubIcon from '../assets/GithubIcon.svg'
+import LinkedinIcon from '../assets/LinkedinIcon.svg'
 
 /**
  * 
@@ -52,6 +54,20 @@ export default function SVGIcon(props){
 		return (
 			<div>
 				<img src={Programador} alt="Programador"></img>
+			</div>
+		);
+
+		case "GithubIcon":
+		return (
+			<div>
+				<img src={GithubIcon} alt="Github"></img>
+			</div>
+		);
+
+		case "LinkedinIcon":
+		return (
+			<div>
+				<img src={LinkedinIcon} alt="Linkedin"></img>
 			</div>
 		);
 

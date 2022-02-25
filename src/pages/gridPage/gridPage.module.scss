@@ -1,5 +1,8 @@
-.app{
-    background-color: #1D1D1D;
+@import '../../App.module.scss';
+
+.gridPage{
+    background-color: $bg-color;
     height: 100vh;
-    overflow: hidden;
-}
+    font-family: $maven-pro;
+    font-weight: 400;
+}   
