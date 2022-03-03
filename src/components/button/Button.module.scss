@@ -1,0 +1,18 @@
+@import '../../App.module.scss';
+
+button{  
+    font-weight: 400;
+    font-family: $overpass;
+    color: white;
+    border-radius: 25px;
+    font-size: 1.25vw;
+    border: none;
+    width: 35%;
+    min-height: 6vh;
+    max-height: 8vh;
+    box-shadow: 0px 5px 10px $bg-color;
+    
+    &:hover{
+        cursor:pointer;
+    }
+}

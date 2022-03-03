@@ -1,62 +1,57 @@
 @import '../../App.module.scss';
-
-.card{
-    background-color: $card-bg-color;
+.cardArea{
     width: 22.5%;
-    border-radius: 25px;
-    padding-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .card{
+        background-color: $card-bg-color;
+        border-radius: 25px;
+        padding-top: 1.5%;
+        height: 85%;
 
-    overflow: hidden;
+        overflow: hidden;
 
-    .imgContainer{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 5%;
+        .imgContainer{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 5%;
 
-        img{
-           
+            img{
+            
+                width: 35%;
+                height: 35%;
+                border-radius: 50%;
+                border: 3px solid $green-color
+            }   
+        }
+        hr{
             width: 35%;
-            height: 35%;
+            height: 2px;
             border-radius: 50%;
-            border: 3px solid $green-color
-        }   
-    }
-    hr{
-        width: 35%;
-        height: 2px;
-        border-radius: 50%;
-        background-color: $green-color;
-        border: none;
-    }
-      
-    h2,h3{
-        color: $white-font-color;
-        text-align: center;
+            background-color: $green-color;
+            border: none;
+        }
         
+        h2,h3{
+            color: $white-font-color;
+            text-align: center;
+            
+        }
+
+        span{
+            display: flex;
+            flex-direction: row;
+            gap: 5%;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
     }
 
     span{
         display: flex;
-        flex-direction: row;
-        gap: 5%;
-        justify-content: center;
-        align-items: center;
-
-        button{
-            background-color: $green-color;
-            font-weight: 400;
-            font-family: $overpass;
-            color: white;
-            border-radius: 25px;
-            font-size: 1.25vw;
-            border: none;
-            width: 35%;
-            min-height: 6vh;
-            max-height: 8vh;
-            
-            &:hover{
-                cursor:pointer;
-            }
-        }
+        justify-content: space-around
     }
 }
